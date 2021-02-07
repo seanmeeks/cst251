@@ -1,12 +1,21 @@
 body {
-  background-color: pink;
+  background-color: pink; font-family: Bell MT
+}
+h1,h2 {
+  color: white; font-family: Bell MT
 }
 h1 {
+  text-align: center;
+}
+p, p2 {
   color: white;
 }
-p1 {
+ul, a {
   color: white;
 }
-p2 {
-  color: white;
+img {
+  width: 20%;
+}
+ul {
+  margin-left: 20%
 }
