@@ -1,0 +1,56 @@
+nav {
+  font-size: 25px
+}
+body {
+    font-family: "Bell Mt", monospace;
+    background-color: #DDA0DD;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 10px;
+    background-color: white;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+.challenge,.problems {
+    text-align: left;
+}
+.results {  padding: 10px;
+  background-color: white;
+  height: auto;
+  text-align: left;
+  margin-top: 25px
+}
+
+
+  h1 {
+    font-family: "Bell Mt", monospace;
+    color: wite
+  }
+  h2, h3 {
+    font-family: "Bell Mt", monospace;
+    color: 	#DDA0DD
+  }
+p {
+  color: 	#DDA0DD
+}
+  img {
+    float: center;
+    width: 400px;
+    height: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+  }
+label {
+  color: #DDA0DD
+}
