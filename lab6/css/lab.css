@@ -18,7 +18,8 @@ div#content {
 .challenge,.problems {
     text-align: left;
 }
-.results {  padding: 10px;
+.results {
+  padding: 10px;
   background-color: white;
   height: auto;
   text-align: left;
@@ -28,7 +29,7 @@ div#content {
 
   h1 {
     font-family: "Bell Mt", monospace;
-    color: wite
+    color: white
   }
   h2, h3 {
     font-family: "Bell Mt", monospace;

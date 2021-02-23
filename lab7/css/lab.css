@@ -1,0 +1,16 @@
+.nicki {
+  border-radius: 5px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 20px black;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+h1, h2, p {
+  text-shadow: 2px 2px 5px black;
+}
