@@ -1,0 +1,50 @@
+.nicki-trinidad {
+  border-radius: 5px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 20px white, -5px -5px 20px white;
+}
+
+body {
+  background-color: #9370DB;
+  background-image: linear-gradient(to bottom right, #87CEEB, #9370DB);
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+}
+
+h2 {
+  text-shadow: 2px 2px 4px #87CEEB, -2px -2px 4px #9370DB;
+  color: black;
+}
+.challenge p, .results p {
+  color: #9370DB;
+}
+
+.problems p {
+    color: #1E90FF;
+}
+
+.nicki-trinidad:hover {
+  transform: scale(1.5);
+}
+
+.challenge, .problems, .results {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: auto;
+  text-align: left;
+  margin-top: 25px
+}
