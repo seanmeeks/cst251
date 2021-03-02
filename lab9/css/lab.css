@@ -1,0 +1,72 @@
+.nicki-dragrace {
+  border-radius: 5px;
+  width: 40%;
+  margin: 20px 20px;
+  box-shadow: 5px 5px 20px black, -5px -5px 20px black;
+  float: right;
+}
+
+div#content {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FFFACD;
+  height: aut
+  text-align: left;
+  margin-top: 25px
+}
+
+body {
+  background-color: #8c0d12;
+
+}
+
+h1 {
+  color: white;
+  border-style: double;
+  border-width: thick;
+  border-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.challenge p, .results p, .problems p {
+  color: black;
+  text-align: center;
+  padding-right: 50%;
+  margin-left: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.challenge h2, .results h2, .problems h2  {
+  color: black;
+  text-align: center;
+  padding-right: 50%;
+}
+
+.link {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
