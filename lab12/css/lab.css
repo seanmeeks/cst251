@@ -1,0 +1,125 @@
+body {
+  background-color: #FF4500;
+}
+
+h1 {
+  color: white;
+  border-bottom-style: double;
+  border-bottom-width: thick;
+  border-bottom-color: white;
+  font-family: "Harrington", serif;
+  text-shadow: 2px 2px black;
+}
+
+.challenge p, .results p, .problems p {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.challenge h2, .results h2, .problems h2  {
+  color: white;
+  text-align: center;
+  font-family: "Harrington", serif;
+  text-shadow: 1px 1px 3px black;
+}
+
+.link, .css-link {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: "Harrington", serif;
+}
+
+button {
+  background-color: white;
+}
+
+link:hover {
+  color: #FF69B4;
+}
+
+.challenge {
+  background-color:	#FF8C00;
+  display: inline-block;
+  box-shadow: 5px 5px black;
+}
+
+.problems {
+  background-color:	#FF8C00;
+  box-shadow: 5px 5px black;
+}
+
+.results {
+  background-color:	#FF8C00;
+  box-shadow: 5px 5px black;
+}
+
+button {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+div#center-horz {
+  line-height: 10px;
+  color: white;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  background-color: #FF8C00;
+  text-shadow: 2px 2px 4px black;
+  padding-bottom: 90px;
+  box-shadow: 5px 5px black;
+}
+
+div#floated {
+  line-height: 10px;
+  color: white;
+  width: 30%;
+  float: right;
+  margin-bottom: 5%;
+  background-color: #FF8C00;
+  text-shadow: 2px 2px 4px black;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  box-shadow: 5px 5px black;
+}
+
+div#center-img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#center-both {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+
+.megatron1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  box-shadow: 5px 5px black;
+}
+
+.megatron2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  box-shadow: 5px 5px black;
+}
