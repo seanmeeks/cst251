@@ -1,0 +1,78 @@
+body {
+  background-color: #1b2127
+}
+
+h1 {
+  color: white;
+  border-bottom-style: double;
+  border-bottom-width: thick;
+  border-bottom-color: white;
+  font-family: "Harrington", serif;
+}
+
+.challenge p, .results p, .problems p {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.challenge h2, .results h2, .problems h2  {
+  color: white;
+  text-align: center;
+  font-family: "Harrington", serif;
+  text-shadow: 1px 1px 3px black;
+}
+
+.link, .css-link {
+  background-color: white;
+  border-color: black;
+  border-width: 3px;
+}
+
+.link2, .css-link2 {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: "Harrington", serif;
+}
+
+.link {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.css-link {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.css-link2:hover, .link2:hover {
+  color: #1b2127;
+}
+
+.challenge {
+  background-color:	orange;
+  display: inline-block;
+}
+
+.problems {
+  background-color: limegreen;
+}
+
+.results {
+  background-color: cyan;
+}
+
+iframe#fake {
+      width: 800px;
+      height: 500px;
+      resize: both;
+      overflow: hidden;
+}
