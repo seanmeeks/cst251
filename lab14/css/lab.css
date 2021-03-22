@@ -1,9 +1,9 @@
 body {
-  background-color: #1b2127;
+  background-color: white;
 }
 
 h1 {
-  color: white;
+  color: black;
   border-bottom-style: double;
   border-bottom-width: thick;
   border-bottom-color: white;
@@ -24,6 +24,7 @@ h1 {
   text-align: center;
   font-family: "Harrington", serif;
   text-shadow: 1px 1px 3px black;
+  padding-top: 10px;
 }
 
 .link, .css-link {
@@ -54,20 +55,20 @@ h1 {
 }
 
 .css-link2:hover, .link2:hover {
-  color: #1b2127;
+  color: #1E90FF;
 }
 
 .challenge {
-  background-color:	orange;
-  display: inline-block;
+  background-color: #DAA520;
 }
 
 .problems {
-  background-color: limegreen;
+  background-color: #66CDAA;
 }
 
 .results {
-  background-color: cyan;
+  background-color: #CD5C5C;
+  padding-bottom: 50px;
 }
 
 iframe#fake {
@@ -75,4 +76,7 @@ iframe#fake {
       height: 500px;
       resize: both;
       overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
 }
