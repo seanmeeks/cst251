@@ -1,0 +1,90 @@
+body {
+  background-image: radial-gradient(#FF69B4, #FFFFFF);
+}
+
+h1 {
+  color: #FF69B4;
+  border-bottom-style: groove;
+  border-bottom-width: 10px;
+  border-bottom-color: #FF69B4;
+  font-family: 'Crafty Girls', cursive;
+  text-shadow: 2px 2px black;
+  padding-bottom: 10px;
+}
+
+.challenge p, .results p, .problems p {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.challenge h2, .results h2, .problems h2  {
+  color: white;
+  text-align: center;
+  font-family: 'Crafty Girls', cursive;
+  text-shadow: 2px 2px 3px black;
+  padding-top: 10px;
+}
+
+.link, .css-link {
+  background-color: white;
+  border-color: #FF69B4;
+  border-width: 3px;
+}
+
+.link2, .css-link2 {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Crafty Girls', cursive;
+}
+
+.link {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.css-link {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.css-link2:hover, .link2:hover {
+  color: #FF69B4;
+}
+
+.challenge, .problems, .results{
+  background-color:	#FF69B4;
+  box-shadow: 5px 5px 10px #FF1493, -5px -5px 10px #FF1493;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.nicki:hover {
+  transform: scale(1.5);
+}
+
+.nicki {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  filter: saturate(150%);
+  box-shadow: 5px 5px 10px #FF1493, -5px -5px 10px #FF1493;
+  border-radius: 20px;
+}
+
+div#nicki-instagram {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
