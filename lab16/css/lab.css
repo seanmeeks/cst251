@@ -1,0 +1,98 @@
+body {
+  background-image: url("../img/nicki.jpg");
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px 10px #1e90ff, -2px -2px 10px #1e90ff;
+  padding-bottom: 10px;
+  animation-name: title;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+  text-align: left;
+}
+
+@keyframes title {
+  0%   {left: 0; right: :0;}
+  25%  {left: 77%; right: 0;}
+  50% {left: 0; right: 0}
+  75%  {left: 77%; right: 0;}
+  100% {left: 0; right: 0;}
+ }
+
+.challenge p, .results p, .problems p {
+  color: white;
+  text-align: left;
+  text-shadow: 1px 1px 2px black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  column-count: 2;
+}
+
+.challenge h2, .results h2, .problems h2  {
+  color: white;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px 3px black;
+  padding-top: 10px;
+}
+
+.link, .css-link {
+  background-color: white;
+  border-color: #FF69B4;
+  border-width: 3px;
+}
+
+.link2, .css-link2 {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+}
+
+.link {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.css-link {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.css-link2:hover, .link2:hover {
+  color: #1e90ff;
+}
+
+.challenge, .problems, .results{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  width: 60%;
+  transition: width 2s;
+  animation-name: pf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pf {
+  0%  {background-color: rgba(238, 130, 238, 0.5);}
+ 25%  {background-color: rgba(30, 144, 255, 0.5);}
+ 50%  {background-color: rgba(0, 255, 127, 0.5);}
+ 75%  {background-color: rgba(255, 255, 0, 0.5);}
+ 100% {background-color: rgba(238, 130, 238, 0.5);}
+}
+
+
+.challenge:hover, .problems:hover, .results:hover {
+  width: 90%;
+}
