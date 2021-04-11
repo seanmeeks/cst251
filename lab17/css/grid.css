@@ -41,6 +41,7 @@ aside {
 main {
   border-width: thick;
   border-color: black;
+  color: white;
   border-style: dashed;
   background-color: #1E90FF;
   margin-bottom: 3%;
