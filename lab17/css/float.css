@@ -58,6 +58,10 @@ nav, main, aside, footer {
 
 }
 
+body {
+  background-color: white;
+}
+
 footer .number {
   float: right;
   padding: 1%;
