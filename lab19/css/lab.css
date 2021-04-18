@@ -1,0 +1,43 @@
+h1, h2, a {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+p {
+  font-family: 'Cormorant', serif;
+  text-align: center;
+  color: white;
+}
+
+img {
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.info {
+  margin-top: 5%;
+}
+
+.pets {
+  margin-top: 3.6%;
+  background-color: #9400D3;
+}
+
+h1 {
+  margin-top: 2%;
+  background-color: #FF8C00;
+}
+
+.challenge {
+  background-color: #B22222;
+}
+
+.problems {
+  background-color: #1E90FF;
+}
+
+.results {
+  background-color: #32CD32;
+}
