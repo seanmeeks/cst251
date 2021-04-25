@@ -1,0 +1,70 @@
+h1, h2, a {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+p {
+  font-family: 'Cormorant', serif;
+  text-align: center;
+  color: white;
+}
+
+.feed img, .profile img, .matches img {
+  width: 30%;
+  margin: 1% 1%;
+}
+
+button {
+  color: white;
+}
+
+img:hover {
+  transform: scale(2);
+}
+
+.feed, .profile, .matches {
+  border-width: medium;
+  border-style: dashed;
+  border-color: white;
+  margin-bottom: 2%;
+  height: 20%;
+}
+
+div#sketches {
+  display: flex;
+}
+
+.info {
+  margin-top: 2%;
+}
+
+.navbar-custom {
+  background-color: #FF1493;
+}
+
+
+.nav-link:hover, .navbar-brand:hover {
+  color: black;
+}
+
+h1 {
+  margin-top: 2%;
+  background-color: #FF1493;
+}
+
+.challenge, .problems, .results {
+  background-color: #FF1493;
+}
+
+body {
+  background-color: black;
+}
+
+.challenge, .problems {
+  padding-top: 1%;
+}
+
+.matches, .profile {
+  margin-left: 1%;
+}
