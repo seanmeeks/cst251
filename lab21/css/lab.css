@@ -1,0 +1,57 @@
+h1, h2, a {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+p {
+  font-family: 'Cormorant', serif;
+  text-align: center;
+  color: white;
+}
+
+.feed img, .profile img, .matches img {
+  width: 100%;
+  padding: 1% 1% 1% 1%;
+}
+
+button {
+  color: white;
+}
+
+.feed, .profile, .matches {
+  border-width: medium;
+  border-style: dashed;
+  border-color: white;
+  margin-bottom: 2%;
+  height: 20%;
+}
+
+div#sketches {
+  display: flex;
+}
+
+.info {
+  margin-top: 2%;
+}
+
+h1 {
+  margin-top: 2%;
+  background-color: #ffc107;
+}
+
+.challenge, .problems, .results {
+  background-color: #ffc107;
+}
+
+body {
+  background-color: black;
+}
+
+.challenge, .problems {
+  padding-top: 1%;
+}
+
+.matches, .profile {
+  margin-left: 1%;
+}
